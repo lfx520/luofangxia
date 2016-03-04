@@ -1,0 +1,30 @@
+body{
+	background-image: url(img/18.jpg);
+	margin: 0;
+	width: 300px;
+	height: 300px;
+	margin-top: 50px;
+	margin: 0 auto;
+}
+#login{
+	font-size: 20px;
+	color: #4DC0FF;
+}
+.put{
+	width: 150px;
+	height: 40px;
+	border-radius: 10px;
+}
+.pull{
+	width: 100px;
+	height: 50px;
+	background-color: #4DC0FF;
+	float: left;
+	border-radius: 10px;
+	margin-left: 18px;
+	color: #000;
+	font-size: 20px;
+}
+.pull:hover{
+	background-color:#4CB748; 
+}
