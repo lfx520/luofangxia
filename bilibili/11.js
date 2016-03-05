@@ -13,6 +13,6 @@ function submit()
 	        alert("密码错误")//当条件2 为ture时执行 
 	   
 	   else
-	    	window.location.href="http://www.attop.com/dot/gx/index.htm?no=GX0007";//当条件1 和条件2 都不为ture时执行
+	    	window.location.href="http://live.bilibili.com/";//当条件1 和条件2 都不为ture时执行
 	    
 }
