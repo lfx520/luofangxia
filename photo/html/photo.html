@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/photo.css">
+</head>
+<body>
+	<div id="main">
+	<div class="arrow"id="left"><i class="iconfont">&#xe64e;</i></div>
+	<img src="../img/1.jpg"id="photo1">
+	<div class="arrow"id="right"><i class="iconfont">&#xe64f;</i></div>
+	</div>
+</body>
+<script type="text/javascript">
+var left = document.querySelector('#left');
+var right = document.querySelector('#right'); 
+var photo1 = document.querySelector('#photo1'); 
+var arrUrl = ["../img/1.jpg","../img/2.jpg","../img/3.jpg","../img/6.jpg","../img/7.jpg","../img/8.jpg"]; 
+var num = 0; 
+  	photo1.src = arrUrl[num]; 
+
+  	left.addEventListener('click', function(){
+  		num ++; 
+  		if(num == arrUrl.length){ 
+  			num = 0; } 
+  			photo1.src = arrUrl[num];
+  			 } );
+
+  	right.addEventListener('click', function(){
+  			  num --; 
+
+  			  if(num == -1){ 
+  			  	num = arrUrl.length-1;
+  			  	 } 
+  			  	photo1.src = arrUrl[num];
+  			  	  } );
+   </script>
+
+
+
+
+
+
+
+
+
