@@ -1,0 +1,25 @@
+{
+  "name": "shd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.13.1",
+    "babel-preset-es2015": "^6.13.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "cheerio": "^0.20.0",
+    "require": "^2.4.20"
+  },
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request": "^2.74.0",
+    "require": "^2.4.20"
+  }
+}
